@@ -1,0 +1,47 @@
+@font-face {
+    src : url(ComicNeue-Regular.ttf);
+    font-family:ComicNeue;
+}
+.centerimageswag{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%
+}
+
+#titlecats{
+    font-family:"ComicNeue";
+    font-size:2.5vw;
+    color:rgba(250, 225, 152, 0.958);
+    text-align: center;
+}
+#shadowmycats{
+    text-shadow: 3 3 2 blue;
+}
+#catlist{
+    display: inline-block;
+    text-align: center;
+}
+
+#border{
+    border:3px double rgb(246, 219, 157);
+    height : auto;
+    margin-top:10px;
+    border-radius: 5px;
+    display : flow-root;
+}
+#textcats{
+    font-family:"ComicNeue";
+    font-size:2.5vw;
+    color:rgb(255, 243, 218);
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow:auto;
+
+}
+#videocats{
+    display:block;
+    margin-top:10px;
+    margin:auto;
+}
